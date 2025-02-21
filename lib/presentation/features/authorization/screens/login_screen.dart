@@ -74,6 +74,9 @@ class _LoginScreenState extends State<LoginScreen> {
                     'На указанный вами номер придет однократное СМС-сообщение с кодом подтверждения.',
                     style: AppFonts.s15w400,
                   ),
+                  SizedBox(
+                    height: 15.5.h,
+                  ),
                   AppButton(
                       onPressed: () {
                         ScaffoldMessenger.of(context).showSnackBar(
